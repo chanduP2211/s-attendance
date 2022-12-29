@@ -13,11 +13,6 @@ let update = document.querySelector(".up")
 let submit = document.querySelector(".submit")
 
 
-
-
-
-
-
 update.addEventListener('click',changing);
 
 let student = localStorage.getItem("student")
