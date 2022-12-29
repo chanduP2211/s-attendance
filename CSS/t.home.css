@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   body{
+    background-image: url(../Admin/images/t.bc1\ -\ Copy.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+    filter: brightness(120%) contrast(150%);
+    font-family: sans-serif;
+   }
+ .main{
+    background-color: black;
+    border: 2px solid black;
+ }
+   ul{
+   display: inline-flex;
+   align-items: center;
+   }
+   ul,li{
+list-style: none;
+padding: 15px;
+font-size: 20px;
+color: rgb(255, 255, 255);
+   }
+   li{
+    width: 100px;
+    height: 20px;
+  padding: 20px;
+  margin-left: 100px;
+  text-align: center;
+   }
+   .li1,li:hover{
+      background-color: red;
+    cursor: pointer;
+   }

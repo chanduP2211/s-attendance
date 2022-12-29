@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+   }
+ 
+   body{
+  
+     background-size: cover;
+ 
+   }
+ .home{
+    background-color: black;
+ }
+   ul{
+   display: inline-flex;
+   align-items: center;
+   }
+   ul,li{
+ list-style: none;
+ padding: 15px;
+ font-size: 20px;
+ color: blanchedalmond;
+   }
+ 
+   li{
+     border-radius: 35px;
+    width: 100px;
+    height: 20px;
+  padding: 20px;
+  margin-left: 70px;
+  text-align: center;
+   } 

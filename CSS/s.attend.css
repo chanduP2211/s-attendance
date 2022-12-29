@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   body{
+    font-family: sans-serif;
+  background-color: rgb(213, 188, 155);
+   }
+   .main{
+    background-color: black;
+ 
+ }
+   ul{  display: inline-flex;
+margin-left: 35%;
+  
+   }
+   ul,li{
+ list-style: none;
+ padding: 15px;
+ font-size: 20px;
+ color: blanchedalmond;
+   }
+   li{
+    width: 100px;
+    height: 20px;
+  padding: 20px;
+  margin-left: 70px;
+  text-align: center;
+   } 
+   .li2,li:hover{
+    background-color:palevioletred;
+    cursor: pointer;
+   }
+   .div2{
+    margin: 5% 20% 0% 20%;
+    display: none;
+   }
+   table{
+    border: none;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 15px black;
+
+   }
+   th,td{
+    border: 2px solid white;
+    text-align: center;
+    padding: 15px;
+   }
+   th{
+    background-color: rgb(127, 212, 255);
+   }
+   tr:nth-child(odd){
+    background-color: yellowgreen;
+   }
+   tr:nth-child(even){
+    background-color: yellow;
+   }
+   .red{
+    background-color: red;
+   }
+   .green{
+    background-color: green;
+   }
+   .span1{
+ 
+    padding: 20px;
+  margin-left: 20%;
+  border-radius: 15%;
+  cursor: pointer;
+  background-color: rgb(175, 114, 231);
+
+   }
+   .span2{
+    padding: 20px;
+  margin-left: 38%;
+  border-radius: 15%;
+  cursor: pointer;
+  background-color: rgb(94, 94, 221);
+
+   }
+   .span{
+    margin-top: 5%;
+   font-weight: bold;
+   font-size: 20px;
+   }

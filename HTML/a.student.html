@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/css.css">
+ <link rel="stylesheet" href="../CSS/a.student.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+   
+    <div class="home">
+        <ul>
+            <li class="li1" onclick="home_page()">HOME</li>
+            <li class="li2" onclick="teacher_page()">TEACHER</li>
+            <li class="li3" onclick="student_page()">STUDENT</li>
+            <li class="li4" onclick="subject_page()">SUBJECT</li>
+            <li class="li5" onclick="attendance_page()">REPORT</li>
+            <li class="li6" onclick="logout_page()">LOG OUT</li>
+        </ul>
+    </div>
+    <div class="main1">
+    <div class="div1">
+       
+         <button onclick="inserting()" class="insert"></button>
+    </div>
+    <div class="div2">
+      <table class="table">
+        <thead>
+            <tr>
+                <th>Sl.no.</th>
+                <th>ID</th>
+                <th>FNAME</th>
+                <th>LNAME</th>
+                <th>GENDER</th>
+                <th>DOB</th>
+                <th>PHONE</th>
+                <th>CLASS</th>
+                <th>ADDRESS</th>
+                <th>ACTION</th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+          
+        </tbody>
+      </table>
+    </div>
+</div>
+    <div class="main2">
+        <form action="">
+            <table class="table2">
+                <tbody class="tbody2">
+                <tr>
+                       <td colspan="2">
+                             <label for=""> STUDENT ID <sup>*</sup></label><br>
+                             <input type="text" name="id" id="id"><br>
+                       </td>
+                </tr>
+                <tr>  
+                       <td> 
+                             <label for="fname">FIRST NAME<sup>*</sup></label><br>
+                             <input type="text" name="fname" id="fname" ><br>
+                       </td>
+                       <td>
+                             <label for="lname">LAST NAME<sup>*</sup></label><br>
+                             <input type="text" id="lname" name="lname" ><br>
+                       </td>
+                </tr>
+                <tr> 
+                       <td>
+                             <label for="">GENDER<sup>*</sup></label><br>
+                             <select name="gender" id="gender" >
+                                  <option value="male">Male</option>
+                                  <option value="female">Female</option>
+                            </select><br>
+                       </td> 
+                       <td>
+                            <label for="dob">DOB<sup>*</sup></label><br>
+                            <input type="date" name="dob" id="dob" >
+                        </td>  
+                </tr> 
+                <tr> 
+                         <td> 
+                             <label for="">PHONE<sup>*</sup></label><br>
+                             <input type="number" name="phone" id="phone" ><br>
+                        </td>
+                        <td>
+                            <label for="">CLASS<sup>*</sup></label><br>
+                            <input type="text" name="section" id="class" ><br>
+                        </td> 
+                </tr> 
+                <tr>    <td colspan="2">
+                             <label for="">ADDRESS<sup>*</sup></label><br>
+                             <textarea name="address" id="address" cols="30" rows="10" ></textarea><br>
+                            </td> </tr> 
+                <tr>
+                        <td>
+                            <button class="submit" onclick="return submiting()">Submit</button>
+                        </td>
+                        <td>
+                            <button class="cancel" onclick="adding()">cancel</button>
+                        </td>
+                </tr> 
+       </tbody>
+        </table>
+        <button class= 'up'>update</button>
+        </form>
+    </div>
+    <script src="../JAVA SCRIPT/a.student.js"></script>
+        <script src="../JAVA SCRIPT/a.home.js"></script>
+</body>
+</html>

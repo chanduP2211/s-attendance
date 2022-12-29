@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:rgb(200, 237, 241);
+
+}
+.main{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 100px;
+   
+}
+.sub1{
+
+height: 40px;
+font-size: 25px;
+margin-top: 25px;
+}
+.sub2{
+   
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: beige;
+}
+label{
+    font-size: 20px;
+   float: left;
+   margin-left: 30px;
+   padding: 10px;
+}
+input{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border : 1px solid rgb(171, 156, 156);
+}
+#changepassword{
+    width: 150px;
+height: 70px;
+margin: 20px 0px 0px 15 0px;
+border: none;
+font-size: 25px;
+background-color: blue;
+border-radius: 10px;
+margin-bottom: 20px;
+cursor: pointer;
+}

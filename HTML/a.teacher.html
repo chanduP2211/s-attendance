@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/css.css">
+   <link rel="stylesheet" href="../CSS/a.teacher.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="home">
+        <ul>
+            <li class="li1" onclick="home_page()">HOME</li>
+            <li class="li2" onclick="teacher_page()">TEACHER</li>
+            <li class="li3" onclick="student_page()">STUDENT</li>
+            <li class="li4" onclick="subject_page()">SUBJECT</li>
+            <li class="li5" onclick="attendance_page()">REPORT</li>
+            <li class="li6" onclick="logout_page()">LOG OUT</li>
+        </ul>
+    </div>
+    <div class="main1">
+    <div class="div1">
+         <button onclick="inserting()" class="insert"></button>
+    </div>
+    <div class="div2">
+      <table class="table">
+        <thead >
+            <tr>
+                <th>Sl.no.</th>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>EMAIL</th>
+                <th>GENDER</th>
+                <th>PHONE</th>
+                <th>DEGREE</th>
+                <th>EXPERIENCE</th>
+                <th>ADDRESS</th>
+                <th>ACTION</th>
+            </tr>
+        </thead>
+        <tbody id="tbody" >
+
+        </tbody>
+      </table>
+    </div>
+</div>
+    <div class="main2">
+       
+            <table class="table2">
+                <tbody class="tbody2">
+                    <form>
+            <tr>
+                <td colspan="2"><label for="">TEACHER ID <sup>*</sup></label><br>
+                <input type="text"  id="id" name="id"><br>
+               </td>
+            </tr>
+            <tr>
+                  <td>
+                    <label for="name">NAME<sup>*</sup></label><br>
+                    <input type="text" id="name" name="name"><br>
+                </td>
+                 <td> 
+                    <label for="email">EMAIL<sup>*</sup></label><br>
+                    <input type="email"  id="email" name="email"><br>
+                </td>
+           </tr> 
+           <tr>
+                <td>
+                    <label for="">GENDER<sup>*</sup></label><br>
+                    <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="Female">Female</option>
+                    </select><br>
+                </td>
+                <td>
+                    <label for="">PHONE<sup>*</sup></label><br>
+                   <input type="number"  id="phone" name="phone"><br>
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    <label for="">DEGREE<sup>*</sup></label><br>
+                    <input type="text"  id="degree" name="degree"><br>
+                </td>
+               <td>
+                    <label for="">Experience<sup>*</sup></label><br>
+                    <input type="text" id="subject" name="experience"><br>
+               </td>
+            </tr> 
+            <tr>
+                <td colspan="2">
+                    <label for="">ADDRESS<sup>*</sup></label><br>
+                    <textarea  id="address" cols="30" rows="10" name="address"></textarea><br>    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button  class="submit" onclick="return submiting()">Submit</button>
+                </td>
+                <td>
+                    <button  class="cancel" onclick="cancelling()">Cancel</button>
+                </td>
+            </tr>
+
+            </form>
+        </tbody>
+        </table>
+        <button class= 'up' onclick="changing()">update</button>
+    </div>
+    
+    
+   <script src="../JAVA SCRIPT/a.teacher.js"></script>
+   <script src="../JAVA SCRIPT/a.home.js"></script>
+  
+</body>
+</html>

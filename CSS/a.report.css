@@ -1,0 +1,96 @@
+
+   body{
+    
+    background-color: rgb(238, 206, 164);
+   }
+   .li5,li:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+   }
+   .main{
+     background-color: black;
+   }
+   .div2,.div1{
+    position: absolute;
+     margin: 14% 20% 5% 20%;
+     display: none;
+    }
+    table{
+     border-collapse: collapse;
+   margin-bottom: 5%;
+     width: 100%;
+     box-shadow: 8px 8px 10px black;
+    }
+    th,td{
+   border: 1px solid whitesmoke;
+     text-align: center;
+     padding: 15px;
+   
+    }
+    th{
+     background-color: aquamarine;
+    }
+    tr:nth-child(odd){
+     background-color: yellowgreen;
+    }
+    tr:nth-child(even){
+     background-color: yellow;
+    }
+    tr{
+      box-shadow: 8px 5px 20px black;
+    }
+    .sub{
+      position: absolute;
+      margin: 5% 0% 0% 20%;
+      display:flex;
+     flex-direction: row;
+     width: 60%;
+     justify-content: space-between;
+    
+    }
+    .sub1{
+    padding: 15px;
+    text-align: center;
+    width: 150px;
+    }
+    .sub2{
+      display: flex;
+      justify-content: space-around;
+      padding: 15px;
+    }
+    .button{
+    width: 200px;
+    margin-left: 8%;
+    height: 50px;
+    border-radius: 10%;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(134, 172, 241);
+    }
+    .button::before{
+      content: "Get Report by Date";
+      font-size: 18px;
+     font-weight: bold;
+    }
+    #date{
+      height: 40px;
+     float: left;
+     margin-top: 5px;
+     background-color: rgb(223, 213, 223);
+     border: none;
+     cursor:text;
+    }
+    .total{
+      width: 100%;
+      height: 50px;
+      cursor: pointer;
+      border-radius: 6%;
+      border: none;
+      background-color: royalblue;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .total::before{
+    content: "Total Report";
+    }
+    

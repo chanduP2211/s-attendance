@@ -1,0 +1,173 @@
+
+ body{
+ 
+ background-color: rgb(160, 237, 84);
+ }
+ .li4,li:hover{
+  background-color: chartreuse;
+  cursor: pointer;
+ }
+ .div2{
+  margin: 2% 25% 0% 25%;
+ }
+ .table{
+   width: 100%;
+   border-collapse: collapse;
+   position: relative;
+ }
+.table td,th{
+  text-align: center;
+
+  width: 100px;
+  height: 50px;
+}
+
+.table th{
+  background-color: darkcyan;
+  border: 1px solid rgb(223, 230, 243);
+  height: 60px;
+  width: 100px;
+ }
+ .table tr:nth-child(even){
+  background-color: rgb(177, 186, 202);
+ }
+ .table tr:nth-child(odd){
+  background-color: rgb(209, 209, 209);
+ }
+ .table tr{
+  height: 50px;
+  box-shadow: 7px 6px 20px black;
+
+}
+.insert{
+  margin-right: 15%;
+  width: 120px;
+  border: none;
+  height: 40px;
+  background-color: rgb(27, 27, 233);
+  }
+  .insert::before{
+  content: "+   insert";
+  font-size: 20px;
+  float: left;
+  margin-left: 18%;
+  color: aliceblue;
+  }
+  button{
+    cursor: pointer;
+     height: 40px;
+     width: 50px;
+  }
+  .submit{
+    height: 50px;
+    width: 120px;
+   
+  }
+.div2{
+  margin-top: 30px;
+}
+.div1{
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 40px;
+   margin-top: 30px;
+    text-align: right;
+
+}
+.main2{
+
+  display: none;
+  box-shadow: 8px -8px 10px black;
+  border-radius: 30px;
+  background-color:pink;
+    padding: 20px;
+    margin:5% 30% 0% 30%
+  }
+
+  label{
+    font-size: 15px;
+   float: left;
+  font-weight: bold;
+  }
+  input{
+  width: 90%;
+  height: 30px;
+  margin: 15px 0%;
+  border-radius: 5px;
+  border: none;
+  float: left;
+  background-color: rgb(243, 230, 243);
+  }
+.submit{
+  float: left;
+    border-radius: 6px;
+    background-color: violet;
+    border: none;
+    position: relative;
+    height: 50px;
+    width: 120px;
+    margin-left: 6%;
+}
+.cancel{
+  float: right;
+  border-radius: 6px;
+  background-color: red;
+  border: none;
+
+  position: relative;
+  height: 50px;
+  width: 120px;
+  margin-right: 6%;
+}
+  .table2{
+    width: 100%;
+
+  }
+  
+  .tbody2 tr,td{
+    height: 90px;
+    width: 100px;
+  }
+  .tbody2 tr:last-child{
+   text-align: center;
+  }
+  .tbody2 tr:last-child{
+   height: 5px;
+   }
+  .jmain1{
+   display: none;
+}
+.jmain2{
+    display: block;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.up{
+  border-radius: 6px;
+  margin-top: -5%;
+  margin-left: 3%;
+  height: 50px;
+  width: 120px;
+  border: none;
+  background-color: green;
+  position: absolute;
+}
+.delete,.update{
+  cursor: pointer;
+}
+.update{
+  margin-left: 25%;
+}
+.delete{
+  margin-right: 25%;
+  color: red;
+}
+
+  .td{
+   display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  }

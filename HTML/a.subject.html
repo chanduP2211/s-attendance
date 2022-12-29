@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/css.css">
+ <link rel="stylesheet" href="../CSS/a.subject.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="home">
+        <ul>
+            <li class="li1" onclick="home_page()">HOME</li>
+            <li class="li2" onclick="teacher_page()">TEACHER</li>
+            <li class="li3" onclick="student_page()">STUDENT</li>
+            <li class="li4" onclick="subject_page()">SUBJECT</li>
+            <li class="li5" onclick="attendance_page()">REPORT</li>
+            <li class="li6" onclick="logout_page()">LOG OUT</li>
+        </ul>
+    </div>
+    <div class="main1">
+    <div class="div1">
+         <button onclick="inserting()" class="insert"></button>
+    </div>
+    <div class="div2">
+      <table class="table">
+        <thead>
+            <tr>
+                <th>SL.NO</th>
+                <th>SUBJECT</th>
+                <th>TEACHER</th>
+                <th>ACTION</th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+        
+        </tbody>
+      </table>
+    </div>
+</div>
+    <div class="main2">
+        <table class="table2">
+            <form action="">
+            <tbody class="tbody2">
+       <tr>
+          <td><label for="">SUBJECT <sup>*</sup></label><br>
+            <input type="text" name="subject_name" id="id"><br></tr></td>  
+           <tr><td><label for="name">FACULTY NAME<sup>*</sup></label><br>
+            <input type="text" id="name" name="faculty_name"><br></tr> </td>
+           <tr><td><button type="button" class="submit" onclick="return submiting()">Submit</button><button type="button" class="cancel" onclick="return closing()">Cancel</button></td></tr>
+    </tbody>
+   
+</form>
+    </table>
+    <button class= 'up' onclick="changing()">update</button>
+    </div>
+   
+</body>
+</html>
+<body>
+   <script src="../JAVA SCRIPT/a.subject.js"></script>
+     <script src="../JAVA SCRIPT/a.home.js"></script>
+</body>
+</html>
